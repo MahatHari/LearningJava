@@ -63,4 +63,13 @@ In above example =>
    `System.out.println(month_days[3])` ***Prints element at index 3, indexing starts at 0 so, 4th element***
 
 
-
+### Multidemnsional Arrays 
+ ***Arrays of arrays***
+  ``` int twoD[][]= new int[4][5]`` => allocates a 4 by 5 array and assignds to twoD, this matrix is implemented as an array of arrays of int 
+***Conceptually it looks like ***
+  ```
+   [0][0]|[0][1]|[0][2]|[0][3]|[0][4]
+   [1][0]|[1][1]|[1][2]|[1][3]|[1][4]
+   [2][0]|[2][1]|[2][2]|[2][3]|[2][4]
+   [3][0]|[3][1]|[3][2]|[3][3]|[3][4]
+```
