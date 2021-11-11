@@ -17,7 +17,7 @@ if one operand is long=> all to long
 if one operand is float= > all to float
 if one oprand is double => all to double
 ```
-byte b = 42;
+ byte b = 42;
         char c = 'a';
         short s = 1024;
         int i = 5000;
@@ -26,7 +26,7 @@ byte b = 42;
         double result = (f * b) + (i / c) - (d * s);
         System.out.println("(f * b) " + "(i / c)" + "-" + " (d * s);");
         System.out.println("resuts= " + result);
-        ```
+```
 In above example =>
  in f*b => b is promoted to float, type of subexpression is float 
  in i/c => c is promoted to int,  type of subexpression is int 
@@ -38,5 +38,5 @@ In above example =>
  # Arrays
  => elements are accesed by its index
  ### One Dimensional Arrays
-  ’’’ type var-name[]; ’’’
-   
+  ``` type var-name[]; ```
+
