@@ -38,5 +38,29 @@ In above example =>
  # Arrays
  => elements are accesed by its index
  ### One Dimensional Arrays
-  ``` type var-name[]; ```
+  General form => ``` type var-name[]; ```
+  an array of int => ``` int mont_days[]; ```
+   ```new``` is special operator that allocates memory 
+   general form of one dimernsional array 
+   ``` array-var = new type [size]```
+   type=> data type, (int, string, double etc)
+   size= lenght of array,
+   array-var => variable name
+
+   automatic initialization by new 
+   for numeric type = 0;
+   for boolean type= false;
+   for reference type= null; 
+
+   ```month_days= new int[12]`` => ***refers to an array of 12 integers, and all elemnts in array are intitilazed to zero ;***
+
+   ``` int month_days[]= new int[12] /*** Initialization */
+   int month_days[]={31,28,30,31,30,31,30,31,30,31} /** Initalization  */
+   ```
+
+   **Accessing Array**
+   ```month_days[1]=28;```
+   `System.out.println(month_days[3])` ***Prints element at index 3, indexing starts at 0 so, 4th element***
+
+
 
