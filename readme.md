@@ -64,9 +64,9 @@ In above example =>
 
 
 ### Multidemnsional Arrays 
- ***Arrays of arrays***
+ *** Arrays of arrays ***
   ``` int twoD[][]= new int[4][5]``` => allocates a 4 by 5 array and assignds to twoD, this matrix is implemented as an array of arrays of int 
-***Conceptually it looks like ***
+*** Conceptually it looks like ***
   ```
    [0][0]|[0][1]|[0][2]|[0][3]|[0][4]
    [1][0]|[1][1]|[1][2]|[1][3]|[1][4]
