@@ -36,7 +36,7 @@ In above example =>
  outcome of float - double is double, which is the type of final result 
 
  # Arrays
-*** elements are accesed by its index ***
+***elements are accesed by its index***
  ### One Dimensional Arrays
   General form => ``` type var-name[]; ```
   an array of int => ``` int mont_days[]; ```
