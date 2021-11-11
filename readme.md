@@ -33,4 +33,10 @@ In above example =>
  in d*s => s is pormoted to double, type of subexpression is double 
 
  outcome of float + int is float
- outcome of float - double is double, which is the type of final result  
+ outcome of float - double is double, which is the type of final result 
+
+ # Arrays
+ => elements are accesed by its index
+ ### One Dimensional Arrays
+  ’’’ type var-name[]; ’’’
+   
