@@ -36,7 +36,7 @@ In above example =>
  outcome of float - double is double, which is the type of final result 
 
  # Arrays
- => elements are accesed by its index
+*** elements are accesed by its index ***
  ### One Dimensional Arrays
   General form => ``` type var-name[]; ```
   an array of int => ``` int mont_days[]; ```
@@ -52,9 +52,10 @@ In above example =>
    for boolean type= false;
    for reference type= null; 
 
-   ```month_days= new int[12]`` => ***refers to an array of 12 integers, and all elemnts in array are intitilazed to zero ;***
+   ```month_days= new int[12]``` => ***refers to an array of 12 integers, and all elemnts in array are intitilazed to zero ;***
 
-   ``` int month_days[]= new int[12] /*** Initialization */
+   ``` 
+   int month_days[]= new int[12] /*** Initialization */
    int month_days[]={31,28,30,31,30,31,30,31,30,31} /** Initalization  */
    ```
 
@@ -64,9 +65,9 @@ In above example =>
 
 
 ### Multidemnsional Arrays 
- *** Arrays of arrays ***
+ ***Arrays of arrays ***
   ``` int twoD[][]= new int[4][5]``` => allocates a 4 by 5 array and assignds to twoD, this matrix is implemented as an array of arrays of int 
-*** Conceptually it looks like ***
+***Conceptually it looks like ***
   ```
    [0][0]|[0][1]|[0][2]|[0][3]|[0][4]
    [1][0]|[1][1]|[1][2]|[1][3]|[1][4]
