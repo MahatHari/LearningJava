@@ -74,3 +74,23 @@ In above example =>
    [2][0]|[2][1]|[2][2]|[2][3]|[2][4]
    [3][0]|[3][1]|[3][2]|[3][3]|[3][4]
 ```
+**Creating MultiDimensional array of variable size**
+``` int twoD[][]= new int[4][];
+    twoD[0]= new int[3]:
+    towD[1]= new int[2];
+    towD[2]= new int[5];
+    towD[3]= new int[6];
+```
+```double m[][] = { { 0 * 0, 0 * 1, 0 * 2, 0 * 3 }, { 1 * 0, 1 * 1, 1 * 2, 1 * 3 }, { 2 * 0, 2 * 1, 2 * 2, 2 * 3 },
+                { 3 * 0, 3 * 1, 3 * 2, 3 * 3 } };
+```
+
+***Alternative Array Declaration Syntax***
+``` 
+type [] var_name;
+int[] a2= new int[3];
+char [][] twod2= new char[3][4]
+int [] nums, num2, nums3 // create three arrays;
+int nums[], nums2[], nums3[] // create three arrays; 
+
+```
