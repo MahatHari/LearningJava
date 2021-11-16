@@ -94,3 +94,48 @@ int [] nums, num2, nums3 // create three arrays;
 int nums[], nums2[], nums3[] // create three arrays; 
 
 ```
+#Declaring Objects
+- creating class means => creating a new data type.
+- 1. declare a variable of the class type 
+- 2. variable simply refer to an Object. 
+- accquire and actual physical copy of the object and assign it to that variable 
+-  the #new operator dynamically allocates (allocates at run time) and returns a reference to it. Reference is essentailly the  address in memory of the object allocated by new. This reference is then stored in the variable
+
+``` Box mybox= new Box() ```
+***Above statment combines the two steps described above***
+```
+Box mybox; // declare reference to object
+mybox= new box() // allocate a Box object 
+
+```
+class var = new className();
+
+***Class creates a new data type that can be used to create objects => That is a class creates a logical framework that defines the relationship between its members, you are creating and instance of that class. Class is a logical construct***
+```
+Box b1= new Box();
+Box b2= b1;
+b1=null;
+
+Here, b1 has been set to null, but b2 still points to the original object. 
+
+```
+
+# Introducing methods
+type name(parameter-list){
+  // body of method
+  return value
+}
+ Here ***type*** => specifies the type of data returned by the method. 
+ type can be any valid type including Class types that we create
+  if ***no return*** then its return type must be ***void***.
+  ***parameter-list*** is a sequence of type and identifer paris separated by commas 
+  ***value*** is the value returned  
+
+- class consist of two things : instance variables and methods. 
+
+# Adding a Method to the Box Class 
+- use methods to access the instance variable  defined by the class. 
+- method deine the interface to most classes. 
+- allows  the class implementor to hide the specific layout of internal data structures behind cleaner method abstractions. 
+- you can also define methods that are used internally by the class itself. 
+ 
