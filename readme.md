@@ -138,4 +138,21 @@ type name(parameter-list){
 - method deine the interface to most classes. 
 - allows  the class implementor to hide the specific layout of internal data structures behind cleaner method abstractions. 
 - you can also define methods that are used internally by the class itself. 
- 
+
+# Returning a Value
+- type of data returned by a method must be compatible with return type specified by the method. 
+-  if return type of method is boolean you cant return an integer
+- variable received the value returned by a methos must also be compatible with the return type specified for method. 
+
+
+# method tha takes parameters
+- parameters allow a method to be generalized 
+- parameterized method can operate on a varied of data and/or be used in a variable number of slightly different situations. 
+
+***Parameter***  is a variable defined by a method that receives a value when a method is called. 
+
+***argument***  is a value that is passed to a method when it is invoked.
+example 
+For example in square(), i is a parameter. 
+square(100) passess as an argument. 
+Inside 
